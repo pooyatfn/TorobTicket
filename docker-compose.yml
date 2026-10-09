@@ -1,0 +1,55 @@
+# docker compose up --build  →  http://localhost:8000
+# Demo data instead of real sellers:  TORUB_PROVIDERS=demo docker compose up --build
+services:
+  app:
+    build: .
+    image: torobticket:latest
+    pull_policy: build   # always rebuild on `docker compose up`, never run a stale image
+    ports:
+      - "8000:8000"
+    environment:
+      TORUB_PROVIDERS: ${TORUB_PROVIDERS:-alibaba,safarmarket,mrbilit,flytoday}   # real prices; "demo" for fictional sellers
+      TORUB_DATABASE_URL: postgresql://torob:${POSTGRES_PASSWORD:-torob}@postgres:5432/torob
+      TORUB_REDIS_URL: redis://redis:6379/0
+      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-2}   # worker processes; they share Postgres and Redis
+      TORUB_ALERT_INTERVAL: "600"
+      TORUB_WATCH_DAYS: "7"             # keep the hourly background sampling light on real sellers
+      # Real sellers from a config file: mount it and uncomment (see backend/providers.example.json)
+      # TORUB_PROVIDERS_CONFIG: /config/providers.json
+    volumes:
+      - torobticket-data:/data   # the old SQLite file, kept for `python -m app.migrate`
+      # - ./providers.json:/config/providers.json:ro
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: torob
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-torob}
+      POSTGRES_DB: torob
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U torob -d torob"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    # A cache only: nothing to persist, and the least recently used keys go first when memory is full.
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+volumes:
+  torobticket-data:
+  pg-data:

@@ -1,0 +1,518 @@
+{
+ "search": {
+  "code": 200,
+  "result": {
+   "flights": [
+    {
+     "flightId": "0",
+     "providersCount": 2,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 115687802,
+     "providers": [
+      {
+       "title": "قاصدک24",
+       "titleEn": "ghasedak24",
+       "price": 115687802,
+       "url": "https://ghasedak24.com/domestic/reservation/MjpBcHBc?identifier=SP:234&adl=2&chd=1&inf=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": null,
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": "child",
+         "weightKg": "20",
+         "pieces": 1
+        }
+       ],
+       "outBoundCancellationPolicies": [
+        {
+         "policy": "0%",
+         "description": "..."
+        }
+       ],
+       "outBoundPriceTypes": {
+        "adultPrice": 115687802
+       }
+      },
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 116363520,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-0?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 116363520
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "NV2628",
+      "stopsCount": 0,
+      "airlineName": "karun Airlines",
+      "airlineNameFa": "کارون",
+      "airlineCode": "NV",
+      "departureTime": "2026-10-20 20:20",
+      "arrivalTime": "2026-10-20 21:20",
+      "duration": 60,
+      "sellType": "CHARTER",
+      "legs": [
+       {
+        "flightNo": "NV2628",
+        "airlineCode": "NV",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 20:20",
+        "arrivalTime": "2026-10-20 21:20",
+        "airPlaneType": "737"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "1",
+     "providersCount": 2,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 118100000,
+     "providers": [
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 118100000,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-1?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 118100000
+       }
+      },
+      {
+       "title": "قاصدک24",
+       "titleEn": "ghasedak24",
+       "price": 118100000,
+       "url": "https://ghasedak24.com/domestic/reservation/MjpBcHBc?identifier=SPN:22&adl=2&chd=1&inf=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": null,
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": "child",
+         "weightKg": "20",
+         "pieces": 1
+        }
+       ],
+       "outBoundCancellationPolicies": [
+        {
+         "policy": "30%",
+         "description": "..."
+        }
+       ],
+       "outBoundPriceTypes": {
+        "adultPrice": 118100000
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "IS4303",
+      "stopsCount": 0,
+      "airlineName": "Sepehran Air",
+      "airlineNameFa": "سپهران",
+      "airlineCode": "SR",
+      "departureTime": "2026-10-20 19:00",
+      "arrivalTime": "2026-10-20 20:20",
+      "duration": 80,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "IS4303",
+        "airlineCode": "SR",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 19:00",
+        "arrivalTime": "2026-10-20 20:20",
+        "airPlaneType": "Boeing 737"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "2",
+     "providersCount": 2,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 118174100,
+     "providers": [
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 118174100,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-2?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 118174100
+       }
+      },
+      {
+       "title": "قاصدک24",
+       "titleEn": "ghasedak24",
+       "price": 118174100,
+       "url": "https://ghasedak24.com/domestic/reservation/MjpBcHBc?identifier=AT:14&adl=2&chd=1&inf=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": null,
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": "child",
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": null,
+         "weightKg": "10",
+         "pieces": 1
+        }
+       ],
+       "outBoundCancellationPolicies": [
+        {
+         "policy": "30%",
+         "description": "..."
+        }
+       ],
+       "outBoundPriceTypes": {
+        "adultPrice": 118174100
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "B98006",
+      "stopsCount": 0,
+      "airlineName": "Iran Air Tour",
+      "airlineNameFa": "ایران ایرتور",
+      "airlineCode": "B9",
+      "departureTime": "2026-10-20 04:50",
+      "arrivalTime": "2026-10-20 06:20",
+      "duration": 90,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "B98006",
+        "airlineCode": "B9",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 04:50",
+        "arrivalTime": "2026-10-20 06:20",
+        "airPlaneType": "Airbus A320"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "3",
+     "providersCount": 2,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 118178000,
+     "providers": [
+      {
+       "title": "قاصدک24",
+       "titleEn": "ghasedak24",
+       "price": 118178000,
+       "url": "https://ghasedak24.com/domestic/reservation/MjpBcHBc?identifier=NR:3&adl=2&chd=1&inf=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": null,
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": "child",
+         "weightKg": "20",
+         "pieces": 1
+        }
+       ],
+       "outBoundCancellationPolicies": [
+        {
+         "policy": "10%",
+         "description": "..."
+        }
+       ],
+       "outBoundPriceTypes": {
+        "adultPrice": 118178000
+       }
+      },
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 118178000,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-3?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 118178000
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "EP3790",
+      "stopsCount": 0,
+      "airlineName": "Aseman Air",
+      "airlineNameFa": "آسمان",
+      "airlineCode": "EP",
+      "departureTime": "2026-10-20 10:00",
+      "arrivalTime": "2026-10-20 11:30",
+      "duration": 90,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "EP3790",
+        "airlineCode": "EP",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 10:00",
+        "arrivalTime": "2026-10-20 11:30",
+        "airPlaneType": "100"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "4",
+     "providersCount": 1,
+     "flightClass": "BUSINESS",
+     "reservable": true,
+     "minPrice": 160000000,
+     "providers": [
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 160000000,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-4?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [
+        {
+         "policy": "100%",
+         "description": "غیر قابل استرداد"
+        }
+       ],
+       "outBoundPriceTypes": {
+        "adultPrice": 160000000
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "B98006",
+      "stopsCount": 0,
+      "airlineName": "Iran Air Tour",
+      "airlineNameFa": "ایران ایرتور",
+      "airlineCode": "B9",
+      "departureTime": "2026-10-20 04:50",
+      "arrivalTime": "2026-10-20 06:20",
+      "duration": 90,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "B98006",
+        "airlineCode": "B9",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 04:50",
+        "arrivalTime": "2026-10-20 06:20",
+        "airPlaneType": "Airbus A320"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "5",
+     "providersCount": 1,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 90000000,
+     "providers": [
+      {
+       "title": "اسنپ تریپ",
+       "titleEn": "snapptrip",
+       "price": 90000000,
+       "url": "https://ticket.snapptrip.com/external/safarmarket/select/v2/5680886538887580097-5?source=dom&adults=2&children=1&infants=0",
+       "capacity": 9,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": "ADULT",
+         "weightKg": "20",
+         "pieces": 0
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 90000000
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "IR0450",
+      "stopsCount": 1,
+      "airlineName": "Iran Air",
+      "airlineNameFa": "ایران ایر",
+      "airlineCode": "IR",
+      "departureTime": "2026-10-20 07:00",
+      "arrivalTime": "2026-10-20 11:00",
+      "duration": 240,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "IR0450",
+        "airlineCode": "IR",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 07:00",
+        "arrivalTime": "2026-10-20 11:00",
+        "airPlaneType": "A320"
+       }
+      ]
+     }
+    },
+    {
+     "flightId": "6",
+     "providersCount": 1,
+     "flightClass": "ECONOMY",
+     "reservable": true,
+     "minPrice": 99000000,
+     "providers": [
+      {
+       "title": "قاصدک24",
+       "titleEn": "ghasedak24",
+       "price": 99000000,
+       "url": "https://ghasedak24.com/domestic/reservation/MjpBcHBc?identifier=X&adl=2&chd=1&inf=0",
+       "capacity": 0,
+       "reservable": true,
+       "outBoundBaggages": [
+        {
+         "passengerType": null,
+         "weightKg": "20",
+         "pieces": 1
+        },
+        {
+         "passengerType": "child",
+         "weightKg": "20",
+         "pieces": 1
+        }
+       ],
+       "outBoundCancellationPolicies": [],
+       "outBoundPriceTypes": {
+        "adultPrice": 99000000
+       }
+      }
+     ],
+     "leave": {
+      "flightNo": "QB1234",
+      "stopsCount": 0,
+      "airlineName": "Qeshm Air",
+      "airlineNameFa": "قشم ایر",
+      "airlineCode": "QB",
+      "departureTime": "2026-10-20 13:00",
+      "arrivalTime": "2026-10-20 14:20",
+      "duration": 80,
+      "sellType": "SYSTEM",
+      "legs": [
+       {
+        "flightNo": "QB1234",
+        "airlineCode": "QB",
+        "departureAirportCode": "THR",
+        "arrivalAirportCode": "SYZ",
+        "departureTime": "2026-10-20 13:00",
+        "arrivalTime": "2026-10-20 14:20",
+        "airPlaneType": "F100"
+       }
+      ]
+     }
+    }
+   ],
+   "filter": {},
+   "origin": {},
+   "destination": {}
+  },
+  "message": null
+ },
+ "calendar": {
+  "cal": {
+   "2026-10-19": {
+    "date": "2026-10-19",
+    "minPrice": 95000090,
+    "maxPrice": 118180000
+   },
+   "2026-10-20": {
+    "date": "2026-10-20",
+    "minPrice": 115687802,
+    "maxPrice": 206807600
+   },
+   "2026-10-21": {
+    "date": "2026-10-21",
+    "minPrice": 0,
+    "maxPrice": 0
+   },
+   "2026-10-25": {
+    "date": "2026-10-25",
+    "minPrice": 101000000,
+    "maxPrice": 150000000
+   }
+  }
+ }
+}

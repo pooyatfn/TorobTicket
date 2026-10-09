@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/.venv
+*.db
+.idea
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+*.md

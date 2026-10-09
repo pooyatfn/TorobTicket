@@ -1,0 +1,169 @@
+{
+ "train_post": {
+  "result": {
+   "requestId": "eyJGcm9tIjoxLCJUbyI6MTkx"
+  },
+  "success": true
+ },
+ "train_poll": {
+  "result": {
+   "departing": [
+    {
+     "trainNumber": 370,
+     "wagonName": "4 ستاره  سالني پرديس",
+     "wagonClass": "S",
+     "companyName": "رجا",
+     "departureDateTime": "2026-10-20T07:25:00",
+     "arrivalDateTime": "2026-10-20T16:10:00",
+     "seat": 181,
+     "cost": 15200000,
+     "fullPrice": 15200000,
+     "isCompartment": false,
+     "compartmentCapacity": 4,
+     "hasAirCondition": true,
+     "hasMedia": false,
+     "hasFreeFood": false,
+     "nonRefundable": false,
+     "isCharter": false,
+     "originCode": "THR",
+     "destinationCode": "MHD"
+    },
+    {
+     "trainNumber": 318,
+     "wagonName": "4 ستاره اتوبوسي صبا",
+     "wagonClass": "S",
+     "companyName": "رجا",
+     "departureDateTime": "2026-10-20T09:20:00",
+     "arrivalDateTime": "2026-10-20T21:45:00",
+     "seat": 312,
+     "cost": 7600000,
+     "fullPrice": 7600000,
+     "isCompartment": false,
+     "compartmentCapacity": 4,
+     "hasAirCondition": true,
+     "hasMedia": false,
+     "hasFreeFood": false,
+     "nonRefundable": false,
+     "isCharter": false,
+     "originCode": "THR",
+     "destinationCode": "MHD"
+    },
+    {
+     "trainNumber": 580,
+     "wagonName": "4 ستاره 4 تخته غدير",
+     "wagonClass": "EC",
+     "companyName": "ريل ترابر سبا",
+     "departureDateTime": "2026-10-20T03:40:00",
+     "arrivalDateTime": "2026-10-20T14:35:00",
+     "seat": 0,
+     "cost": 12839500,
+     "fullPrice": 12839500,
+     "isCompartment": true,
+     "compartmentCapacity": 4,
+     "hasAirCondition": true,
+     "hasMedia": true,
+     "hasFreeFood": false,
+     "nonRefundable": false,
+     "isCharter": false,
+     "originCode": "THR",
+     "destinationCode": "MHD"
+    },
+    {
+     "trainNumber": 468,
+     "wagonName": "5 ستاره ايران ( با پذيرايي و شام )",
+     "wagonClass": "EC",
+     "companyName": "بن ريل",
+     "departureDateTime": "2026-10-20T04:05:00",
+     "arrivalDateTime": "2026-10-20T15:05:00",
+     "seat": 6,
+     "cost": 29900000,
+     "fullPrice": 29900000,
+     "isCompartment": true,
+     "compartmentCapacity": 4,
+     "hasAirCondition": true,
+     "hasMedia": true,
+     "hasFreeFood": true,
+     "nonRefundable": true,
+     "isCharter": false,
+     "originCode": "THR",
+     "destinationCode": "MHD"
+    }
+   ],
+   "returning": [],
+   "isCompleted": true
+  },
+  "success": true
+ },
+ "bus": {
+  "result": {
+   "state": false,
+   "availableList": [
+    {
+     "companyName": "شرکت  گیتی نورد تعاونى شماره 12 - پایانه جنوب",
+     "companyCode": "T12",
+     "departureDateTime": "2026-10-20T06:00:00",
+     "busType": "وی آی پی29نفره صندلی تخت شو همراه باشارژراختصاصی",
+     "price": 13155000,
+     "availableSeats": 22,
+     "orginTerminal": "تهران پایانه جنوب",
+     "destinationTerminal": "پایانه امام رضا",
+     "droppingPoints": [
+      "سبزوار",
+      "نیشابور",
+      "مشهد (خراسان )"
+     ],
+     "isRefundable": true,
+     "logoPath": "https://cdn.alibaba.ir/static/img/bus/T12.jpg",
+     "rate": null
+    },
+    {
+     "companyName": "ایمن سفر ایرانیان تهران جنوب تعاونی 6",
+     "companyCode": "1425545689",
+     "departureDateTime": "2026-10-20T08:15:00",
+     "busType": "اتوبوس مارال سه محوره ",
+     "price": 13150000,
+     "availableSeats": 15,
+     "orginTerminal": "تهران پایانه جنوب",
+     "destinationTerminal": "پایانه امام رضا",
+     "droppingPoints": [
+      "مشهد مقدس"
+     ],
+     "isRefundable": true,
+     "logoPath": "https://cdn.alibaba.ir/static/img/bus/1425545689.jpg",
+     "rate": null
+    },
+    {
+     "companyName": "شرکت تعاونی 16 جهان گشت مهر- پایانه جنوب",
+     "companyCode": "T16",
+     "departureDateTime": "2026-10-20T10:00:00",
+     "busType": "VIPتخت شو25نفره باشارژر اختصاصی",
+     "price": 13150000,
+     "availableSeats": 12,
+     "orginTerminal": "تهران پایانه جنوب",
+     "destinationTerminal": "پایانه امام رضا",
+     "droppingPoints": [
+      "مشهد (خراسان )"
+     ],
+     "isRefundable": true,
+     "logoPath": "https://cdn.alibaba.ir/static/img/bus/T16.jpg",
+     "rate": 4.5
+    },
+    {
+     "companyName": "تعاونی نمونه پر شده",
+     "companyCode": "X1",
+     "departureDateTime": "2026-10-20T22:00:00",
+     "busType": "معمولی",
+     "price": 9000000,
+     "availableSeats": 0,
+     "orginTerminal": "تهران پایانه شرق",
+     "destinationTerminal": "پایانه امام رضا",
+     "droppingPoints": [],
+     "isRefundable": false,
+     "logoPath": null,
+     "rate": null
+    }
+   ]
+  },
+  "success": true
+ }
+}

@@ -1,0 +1,27 @@
+# Hot-reload development: docker compose -f docker-compose.dev.yml up
+# Frontend http://localhost:5173 (proxies /api to the backend), backend http://localhost:8000
+services:
+  backend:
+    image: python:3.13-slim
+    working_dir: /app
+    command: sh -c "pip install -q -r requirements.txt && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    environment:
+      TORUB_DB: /data/dev.db
+      TORUB_WATCH_INTERVAL: "0"
+    volumes:
+      - ./backend:/app
+      - dev-data:/data
+    ports: ["8000:8000"]
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm install --no-audit --no-fund && npm run dev -- --host 0.0.0.0"
+    environment:
+      API_TARGET: http://backend:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports: ["5173:5173"]
+    depends_on: [backend]
+volumes:
+  dev-data:

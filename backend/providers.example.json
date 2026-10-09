@@ -1,0 +1,8 @@
+[
+  {"type": "mock", "name": "آژانس نمونه الف"},
+  {"type": "http_json", "name": "my-seller", "url": "https://api.example.com/flights/search",
+   "params": {"from": "{origin}", "to": "{destination}", "date": "{date}"},
+   "items_path": "data.flights",
+   "map": {"airline": "airline.name", "airline_code": "airline.code", "flight_number": "number",
+           "departure": "departure", "arrival": "arrival", "price": "price", "url": "link"}}
+]
